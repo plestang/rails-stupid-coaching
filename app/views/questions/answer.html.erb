@@ -2,7 +2,11 @@
 <!-- if params contains ?  -->
 
 <p> <%= @answer %></p>
-<p>Ta putain de question, la voila::: <%= @ask %></p>
+<p>Here is what you asked => <%= @ask %></p>
+
+<!-- <a href="/ask"> Ask another question</a> -->
+
+<%= link_to "Ask another question", ask_path %>
 
 <!-- er = <%  %> -->
 <!-- pe =  <%=  %> -->
